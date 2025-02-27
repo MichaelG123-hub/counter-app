@@ -1,0 +1,17 @@
+{
+  "name": "my-next-app",
+  "version": "1.0.0",
+  "description": "Building a bare bones next app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Gastambides",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^15.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
