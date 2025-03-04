@@ -5,18 +5,22 @@
 import { useState } from "react" // we use this to react add state to out components
 // state lets us keep track of changing data and show it in the component
 
-function Homepage(){  
-    // create some state keeping track of the changing count
-    const [count, setCount] = useState(0)
+import Form from "./components/Form"
+import Table from "./components/Table"
 
 
+function Homepage(){   
     return (
         <div>
-            <h1>Counter: {count}</h1>
-            <button onClick={()=>{
-                // write some javascript for this to call
-                setCount(count + 1)
-            }}>Add One</button>
+           <h1> FavLinks </h1>
+
+           {/* Form for the user to input data*/}
+                <Form />
+           {/* A table the user acn use to see their submissions*/ }
+
+                <Table />
+           
+
         </div>
     )
 }
